@@ -3,7 +3,7 @@ import { Trophy, Star, Gamepad2, Rocket } from "lucide-react";
 
 const Leaderboard = ({ leaderboard }) => {
 	return (
-		<div className="w-1/4 p-6 bg-gradient-to-br from-blue-50 to-blue-100 rounded-r-2xl shadow-lg">
+		<div className="w-full md:w-full p-6 bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl shadow-lg mb-6 md:mb-0">
 			<div className="flex items-center justify-center mb-4">
 				<Trophy className="text-yellow-500 mr-2" size={32} />
 				<h2 className="text-2xl font-bold text-blue-700">Papan Skor</h2>

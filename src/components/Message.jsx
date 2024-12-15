@@ -8,11 +8,10 @@ const Message = ({ message }) => {
 	};
 
 	return (
-		<div className={`p-4 mt-4 rounded-lg border-2 ${getMessageStyle()} animate-bounce`}>
+		<div className={`p-4 mt-4 rounded-lg border-2 ${getMessageStyle()} animate-bounce w-full max-w-md mx-auto`}>
 			<p className="text-center font-semibold">{message}</p>
 		</div>
 	);
 };
-
 
 export default Message;
